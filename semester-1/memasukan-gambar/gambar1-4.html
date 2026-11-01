@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Belajar Membuat Tabel HTML</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TABEL 1: PRODUK UNGGULAN (dari screenshot pertama kamu) -->
+    <div class="table-card">
+        <table class="styled-table">
+            <caption>Produk Unggulan</caption>
+            <tr>
+                <td rowspan="4"><img src="WhatsApp Image 2026-09-09 at 08.13.57.jpeg" width="200" /></td>
+                <td>Nama</td>
+                <td>Benih Kode</td>
+            </tr>
+            <tr>
+                <td>Harga</td>
+                <td>Rp 192.000</td>
+            </tr>
+            <tr>
+                <td>Fitur</td>
+                <td>
+                    <ul>
+                        <li>Dilengkapi Dokumentasi</li>
+                        <li>Ukuran: 31MB</li>
+                        <li>Masa Tanam: 6 Bulan</li>
+                        <li>Lisensi: MIT</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- TABEL 2: PROFILE + STATUS (dari 4 screenshot terakhir) -->
+    <div class="table-card">
+        <table class="profile-table styled-table">
+            <caption>Tabel Pengguna & Status</caption>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Pengguna</th>
+                    <th>Peran / Jabatan</th>
+                    <th>Kota / Email</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?img=33" alt="Foto Ahmad" class="avatar">
+                            <span class="user-name">Ahmad Rizky</span>
+                        </div>
+                    </td>
+                    <td><span class="role-badge">Frontend Dev</span></td>
+                    <td>ahmad@example.com</td>
+                    <td><span class="status aktif">Aktif</span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Siti Rahma</td>
+                    <td>UI/UX Designer</td>
+                    <td>Bandung</td>
+                    <td><span class="status aktif">Aktif</span></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Andi Wijaya</td>
+                    <td>Data Analyst</td>
+                    <td>Surabaya</td>
+                    <td><span class="status non-aktif">Non-Aktif</span></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Dewi Lestari</td>
+                    <td>Project Manager</td>
+                    <td>Yogyakarta</td>
+                    <td><span class="status aktif">Aktif</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
